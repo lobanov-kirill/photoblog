@@ -30,6 +30,12 @@ body {
 .header {
   padding-top: 70px;
 }
+
+.nav-list {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
 .nav-link {
   color: var(--color-text-navigation);
   text-decoration: none;
@@ -60,8 +66,21 @@ body {
   margin-bottom: 40px;
 }
 
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .gallery-list {
   margin-bottom: 95px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 65px;
+  row-gap: 130px;
+}
+
+.gallery-item {
+  max-width: 420px;
 }
 
 .gallery-button {
